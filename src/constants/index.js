@@ -5,9 +5,9 @@ export const navLinks = [
     path: "/",
   },
   {
-    id: "about",
-    title: "About",
-    path: "/about",
+    id: "resume",
+    title: "Resume",
+    path: "/resume",
   },
   {
     id: "projects",
@@ -75,10 +75,60 @@ export const projects = [
 export const currentprojects = [
   {
     id: "project1",
-    name: "SwasthaVrikshya",
-    github: "https://github.com/SpandanMozumder/Smart-India-Hackathon-2023",
-    netlify: "",
+    name: "Google Calender Clone",
+    github: "https://github.com/SpandanMozumder/Google-Calender-Clone",
     description:
-      "The solution prototype for a problem statement in the 2023 Smart India Hackathon",
+      "A simplified clone of Google Calender, using ReactJS, React Hooks, React COntext and Tailwind CSS.",
+  },
+  {
+    id: "project2",
+    name: "Instagram Clone",
+    github: "https://github.com/SpandanMozumder/Instagram-Clone",
+    description:
+      "A simplified clone of Instagram, using ReactJS, and Firebase.",
+  },
+
+];
+
+export const skills = [
+  {
+    id: "skill1",
+    name: "Frontend Development",
+    icon: "https://img.icons8.com/ios/50/FFFFFF/code--v1.png",
+    alt: "code--v1",
+    description:
+      "I have experience building responsive web applications using ReactJS, NextJS and have used Tailwind CSS for styling. I have also worked with ThreeJS for 3D graphics.",
+  },
+  {
+    id: "skill2",
+    name: "UI/UX Design",
+    icon: "https://img.icons8.com/ios/50/FFFFFF/web.png",
+    alt: "web",
+    description:
+      "I have experience designing user interfaces using Figma.",
+  },
+  {
+    id: "skill3",
+    name: "Backend Development",
+    icon: "https://img.icons8.com/external-flaticons-lineal-flat-icons/64/FFFFFF/external-backend-computer-programming-flaticons-lineal-flat-icons.png",
+    alt: "external-backend-computer-programming-flaticons-lineal-flat-icons",
+    description:
+      "I have experience working with backend technologies like NodeJS and ExpressJS, and used MongoDB as the database for my projects. I have also worked with Firebase for authentication and storage purposes",
+  },
+  {
+    id: "skill4",
+    name: "Data Structures and Algorithms",
+    icon: "https://img.icons8.com/external-outline-andi-nur-abdillah/64/FFFFFF/external-Data-Structure-artificial-intelligence-(outline)-outline-andi-nur-abdillah.png",
+    alt: "external-Data-Structure-artificial-intelligence-(outline)-outline-andi-nur-abdillah",
+    description:
+      "I have a strong understanding of data structures and algorithms in Java",
+  },
+  {
+    id: "skill5",
+    name: "Other Tools and Sofwares",
+    icon: "https://img.icons8.com/ios/50/FFFFFF/maintenance--v1.png",
+    alt: "maintenance--v1",
+    description:
+      "I have experience working with cybersecurity tools such as Wireshark, Nmap, and Metasploit.",
   },
 ];

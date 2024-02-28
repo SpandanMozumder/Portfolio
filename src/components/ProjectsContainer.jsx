@@ -26,14 +26,16 @@ const ProjectsContainer = () => {
                 </a>
               </button>
               {project.netlify && (
+                 <button className="bg-[#9A9A9A] rounded-lg px-5 py-3 hover:bg-orange-500 mt-10">
                 <a
                   href={project.netlify}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-black font-semibold"
                 >
-                  Netlify
+                  Demo
                 </a>
+                </button>
               )}
             </div>
           </div>

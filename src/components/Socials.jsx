@@ -3,7 +3,7 @@ const Socials = () => {
 
   return (
     <div>
-      <div className="w-screen bg-black relative flex mx-60">
+      <div className="w-screen bg-black relative flex mx-40">
         <button className="p-2 rounded-lg m-3 hover:bg-gray-700">
           <a href="https://www.instagram.com/spandy._.pvt/">
             <img

@@ -3,7 +3,7 @@ import { currentprojects } from "../constants";
 const Current = () => {
   return (
     <div>
-      <div className=" mx-60 pt-10">
+      <div className=" mx-40 pt-10">
         <h1 className="mt-10 text-2xl leading-[3rem] font-semibold">
           Projects That I am Working On
         </h1>

@@ -22,7 +22,7 @@ const Navbar = () => {
         <ul className="flex space-x-5 justify-center items-center text-white px-11">
           {navLinks.map((link) => (
             <li key={link.id}>
-              <div className="px-5 py-2 rounded-2xl hover:bg-orange-500 hover:text-black">
+              <div className="px-5 rounded-2xl hover:scale-[1.03] transition-all">
                 <Link to={link.path} className={`${isActive(link.path)}`}>
                   {link.title}
                 </Link>

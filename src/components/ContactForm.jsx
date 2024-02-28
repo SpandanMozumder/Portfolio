@@ -2,10 +2,10 @@ const ContactForm = () => {
   return (
     <div>
       <div className="w-screen bg-black pt-20 relative text-white font-sourcecode pb-44">
-        <h1 className="mx-60 my-10 text-4xl leading-[4rem] font-semibold">
+        <h1 className="mx-40 my-10 text-4xl leading-[4rem] font-semibold">
           Contact Me
         </h1>
-        <form className="mx-60">
+        <form className="mx-40">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             <div>
               <label className="block mb-1">Name</label>
