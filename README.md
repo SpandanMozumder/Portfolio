@@ -38,7 +38,7 @@ My personal portfolio website
     ```sh
     npm start
     ```
-5. Open your browser and go to `http://localhost:3000` to play the game.
+5. Open your browser and go to `http://localhost:5173` to play the game.
 
 ## Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
